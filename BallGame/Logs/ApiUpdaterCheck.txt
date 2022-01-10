@@ -1,0 +1,60 @@
+[api-updater (non-obsolete-error-filter)] 2022-01-10 PM 4:37:41 : Starting C:/Users/seren/OneDrive/바탕 화면/2020.3.25f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 1875.0325ms
+moved types parse time: 152ms
+candidates parse time : 3ms
+C# parse time         : 1481ms
+candidates check time : 66ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 2022-01-10 PM 5:00:36 : Starting C:/Users/seren/OneDrive/바탕 화면/2020.3.25f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 452.6767ms
+moved types parse time: 297ms
+candidates parse time : 11ms
+C# parse time         : 988ms
+candidates check time : 93ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 2022-01-10 PM 5:14:01 : Starting C:/Users/seren/OneDrive/바탕 화면/2020.3.25f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 313.6063ms
+moved types parse time: 323ms
+candidates parse time : 4ms
+C# parse time         : 734ms
+candidates check time : 75ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 2022-01-10 PM 5:14:40 : Starting C:/Users/seren/OneDrive/바탕 화면/2020.3.25f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 409.6417ms
+moved types parse time: 109ms
+candidates parse time : 3ms
+C# parse time         : 488ms
+candidates check time : 70ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 2022-01-10 PM 10:04:54 : Starting C:/Users/seren/OneDrive/바탕 화면/2020.3.25f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 924.6743ms
+moved types parse time: 67ms
+candidates parse time : 3ms
+C# parse time         : 247ms
+candidates check time : 39ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 2022-01-10 PM 10:45:02 : Starting C:/Users/seren/OneDrive/바탕 화면/2020.3.25f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 431.0015ms
+moved types parse time: 119ms
+candidates parse time : 1ms
+C# parse time         : 294ms
+candidates check time : 47ms
+console write time    : 1ms
+
