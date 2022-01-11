@@ -16,8 +16,7 @@ public class Ball : MonoBehaviour
         myCollider = GetComponent<SphereCollider>();
         myRigidbody = GetComponent<Rigidbody>();
 
-        Debug.Log("UseGravity?:" + myRigidbody.useGravity);
-
+        //Debug.Log("UseGravity?:" + myRigidbody.useGravity);
         Debug.Log("Start");
         //startingPoint = transform.position.z;
     }

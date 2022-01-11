@@ -9,7 +9,15 @@ public class CameraWork : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ball = GameObject.Find("Ball"); // 오브젝트 찾기
+        ball = GameObject.Find("Ball"); // (카메라가 Ball 따라다님)
+       /*
+        GameObject[] coins = GameObject.FindGameObjectsWithTag("Coin");
+
+        for (int i = 0; i < coins.Length; i++)
+        {
+            Debug.Log(coins[i].name);
+        }
+        */
     }
 
     // Update is called once per frame

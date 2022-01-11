@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coin : MonoBehaviour
+public class RedCoin : MonoBehaviour
 {
-    void OnTriggerEnter(Collider col)
+    void OnTriggerEnter(Collider col) // Ball과 부딪히면 Red Coin 사라짐
     {
-        if (col.gameObject.name == "Ball") // Ball과 Coin이 충돌하면 Coin을 없앰
+        if (col.gameObject.name == "Ball")
         {
-            GameObject.Find("GameManager").SendMessage("GetCoin"); // 코인 개수 증가
+            GameObject.Find("GameManager").SendMessage("RedCoinStart");
             Destroy(gameObject);
         }
     }
@@ -24,5 +24,4 @@ public class Coin : MonoBehaviour
     {
         
     }
-
 }

@@ -20,7 +20,7 @@ public class FailZone : MonoBehaviour
     {
         if(collider.gameObject.name == "Ball") // Ball이 FailZone으로 떨어지면 게임 재시작
         {
-            Application.LoadLevel("Game");
+            GameObject.Find("GameManager").SendMessage("RestartGame");
         }
     }
 }
