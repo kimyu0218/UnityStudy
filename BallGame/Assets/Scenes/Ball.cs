@@ -25,15 +25,18 @@ public class Ball : MonoBehaviour
     void Update()
     {
         //myCollider.radius = myCollider.radius + 0.0001f; // 충돌 범위
-       if (Input.GetKeyDown(KeyCode.Space)) // 스페이스 누르면 점프
+        if (Input.GetKeyDown(KeyCode.Space)) // 스페이스 누르면 점프
         {
             //Debug.Log("Space를 눌렀습니다.");
             GetComponent<Rigidbody>().AddForce(Vector3.up * 300);
-        }
-    }
+            /*
+              Rigidbody ballRigid;
+              ballRigid = gameObject.GetComponent<Rigidbody>();
+              ballRigid.AddForce(Vector3.up * 300);
 
-    void TestMethod()
-    {
-        Debug.Log("This is TestMethod");
+              Debug.Log(ballRigid.mass);
+            */
+        }
+
     }
 }

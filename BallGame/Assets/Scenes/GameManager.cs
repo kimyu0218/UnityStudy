@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    void RestartGame() // 게임 재시작
+    public int coinCount = 0;
+    public Text coinText;
+
+    public void RestartGame() // 게임 재시작
     {
         Application.LoadLevel("Game");
     }
@@ -24,10 +28,10 @@ public class GameManager : MonoBehaviour
 
     }
 
-    int coinCount = 0;
     void GetCoin() // 코인 개수 세기
     {
         coinCount++;
+        coinText.text = coinCount + "개";
         Debug.Log("동전: " + coinCount);
     }
 
@@ -40,7 +44,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 }
