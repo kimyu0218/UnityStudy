@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        coinText.text = coinCount + "°³";
     }
 
     // Update is called once per frame
